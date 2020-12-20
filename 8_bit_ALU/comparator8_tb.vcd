@@ -1,0 +1,194 @@
+$date
+	Fri May 15 20:52:01 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module comparator8_tb $end
+$scope module comp01 $end
+$var wire 8 ! a [7:0] $end
+$var wire 8 " b [7:0] $end
+$var wire 1 # lt $end
+$var wire 1 $ l $end
+$var wire 1 % gt $end
+$var wire 1 & g $end
+$var wire 1 ' eq $end
+$var wire 1 ( e $end
+$scope module c1 $end
+$var wire 4 ) a [3:0] $end
+$var wire 4 * b [3:0] $end
+$var wire 1 ' e $end
+$var wire 1 + ebar $end
+$var wire 1 , eq $end
+$var wire 1 % g $end
+$var wire 1 - gbar $end
+$var wire 1 . gt $end
+$var wire 1 # l $end
+$var wire 1 / lt $end
+$var wire 1 0 w1 $end
+$var wire 1 1 w2 $end
+$var wire 1 2 w3 $end
+$var wire 1 3 w4 $end
+$var wire 4 4 x [3:0] $end
+$var wire 4 5 bbar [3:0] $end
+$upscope $end
+$scope module c2 $end
+$var wire 4 6 a [3:0] $end
+$var wire 4 7 b [3:0] $end
+$var wire 1 ( e $end
+$var wire 1 8 ebar $end
+$var wire 1 ' eq $end
+$var wire 1 & g $end
+$var wire 1 9 gbar $end
+$var wire 1 % gt $end
+$var wire 1 $ l $end
+$var wire 1 # lt $end
+$var wire 1 : w1 $end
+$var wire 1 ; w2 $end
+$var wire 1 < w3 $end
+$var wire 1 = w4 $end
+$var wire 4 > x [3:0] $end
+$var wire 4 ? bbar [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111 ?
+b111 >
+0=
+0<
+0;
+1:
+09
+18
+b0 7
+b1000 6
+b1110 5
+b1110 4
+03
+02
+01
+00
+0/
+0.
+1-
+1,
+1+
+b1 *
+b0 )
+0(
+0'
+1&
+0%
+0$
+1#
+b10000 "
+b1000 !
+$end
+#50
+0#
+08
+0$
+0-
+1(
+19
+1%
+0&
+b1101 ?
+b1010 4
+11
+b1111 >
+0:
+b10 7
+b100 )
+b10 6
+b10010 "
+b1000010 !
+#100
+1-
+0+
+0%
+1'
+01
+b1111 4
+b1011 5
+b100 *
+b1000010 "
+#150
+1#
+1+
+0'
+1-
+0%
+b10 4
+b100 5
+02
+b1011 *
+b110 )
+b10110010 "
+b1100010 !
+#200
+0#
+0-
+1%
+18
+10
+0(
+09
+1&
+0=
+b110 4
+b1010 5
+b110 >
+1:
+b101 *
+b1100 )
+b1011 6
+b1010010 "
+b11001011 !
+#250
+1#
+0$
+1-
+1;
+09
+0%
+1&
+b1001 5
+b1101 4
+00
+b1011 >
+0:
+b110 *
+b100 )
+b110 6
+b1100010 "
+b1000110 !
+#300
+0;
+b0 4
+b110 5
+b11 >
+1:
+b1001 *
+b110 )
+b1110 6
+b10010010 "
+b1101110 !
+#350
+0#
+0-
+1%
+10
+b1110 5
+b10 4
+b1 *
+b1100 )
+b10010 "
+b11001110 !
+#400

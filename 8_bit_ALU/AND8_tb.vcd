@@ -1,0 +1,45 @@
+$date
+	Fri May 15 20:04:49 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module AND8_tb $end
+$scope module AO1 $end
+$var wire 8 ! a [7:0] $end
+$var wire 8 " b [7:0] $end
+$var wire 8 # z [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b1000101 "
+b10010 !
+$end
+#50
+b10100 #
+b1010101 "
+b10110 !
+#100
+b10 #
+b1000111 "
+b10010010 !
+#150
+b0 #
+b1000100 "
+b10011 !
+#200
+b101 "
+b11010 !
+#250
+b11000101 "
+b110010 !
+#300
+b1000001 "
+b10110 !
+#350

@@ -1,0 +1,60 @@
+$date
+	Fri May 15 19:56:48 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Incre_Decre_tb $end
+$scope module id01 $end
+$var wire 8 ! a [7:0] $end
+$var wire 1 " sel $end
+$var reg 8 # b [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 #
+1"
+b101 !
+$end
+#50
+b101 #
+0"
+b100 !
+#100
+b10011 #
+1"
+b10100 !
+#150
+b10000110 #
+0"
+b10000101 !
+#200
+b10000000 #
+1"
+b10000001 !
+#250
+b10010110 #
+0"
+b10010101 !
+#300
+b10001111 #
+1"
+b10010000 !
+#350
+b10010110 #
+0"
+b10010101 !
+#400
+b10010000 #
+1"
+b10010001 !
+#450
+b10010101 #
+0"
+b10010100 !
+#500
